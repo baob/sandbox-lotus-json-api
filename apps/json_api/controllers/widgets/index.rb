@@ -1,8 +1,10 @@
+require 'json'
+
 class Widgets::Index
   include Lotus::Action
 
   def call(env)
-    self.body = { containers: { middle: [ { widgets: [] } ] } }.to_json
+    self.body = JSON.generate({ containers: { middle: [ { widgets: [] } ] } })
   end
 
 
