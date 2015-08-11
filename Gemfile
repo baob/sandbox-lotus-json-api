@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'lotus-router'
+gem 'lotus-controller'
+gem 'rspec'
+gem 'guard'
+gem 'guard-bundler'
+gem 'guard-rspec'
+gem 'terminal-notifier-guard'
+gem 'capybara'
